@@ -1,17 +1,21 @@
-/* @import */
+/* vendor */
 
 @import url('../vendor/normalize.css');
+
+/* fonts */
+
+@import url('../fonts/fonts.css');
 
 /* page */
 
 @import url('../blocks/page/page.css');
-@import url('../blocks/page/page__link.css');
+@import url('../blocks/page/__link/page__link.css');
 @import url('../blocks/nav-list/nav-list.css');
 @import url('../blocks/nav-list/__link/nav-list__link.css');
-@import url('../blocks/section/__title/section__title.css');
-@import url('../blocks/section/__title/_theme/section__title_theme_dark.css');
-@import url('../blocks/section/__subtitle/section__subtitle.css');
-@import url('../blocks/section/__subtitle/_theme/section__subtitle_theme_dark.css');
+@import url('../blocks/section-title/section__title.css');
+@import url('../blocks/section-title/_theme/section__title_theme_dark.css');
+@import url('../blocks/section-subtitle/section__subtitle.css');
+@import url('../blocks/section-subtitle/_theme/section__subtitle_theme_dark.css');
 @import url('../blocks/rotation/rotation.css');
 
 /* logo */
@@ -62,6 +66,7 @@
 /* oakley */
 
 @import url('../blocks/oakley/oakley.css');
+@import url('../blocks/oakley/__two-columns/oakley__two-columns.css');
 
 /* feynman */
 
@@ -118,32 +123,3 @@
 @import url('../blocks/footer/__column-links/footer__column-links.css');
 @import url('../blocks/footer/__column-link/footer__column-link.css');
 @import url('../blocks/footer/__social-icon/footer__social-icon.css');
-@import url('../blocks/footer/__social-icon/_fb/footer__social-icon_fb.css');
-@import url('../blocks/footer/__social-icon/_vk/footer__social-icon_vk.css');
-@import url('../blocks/footer/__social-icon/_inst/footer__social-icon_inst.css');
-
-/* Шрифты */
-
-@font-face {
-  src:
-  url('../fonts/Inter-Regular.woff') format('woff'),
-  url('../fonts/Inter-Regular.woff2') format('woff2');
-  font-family: 'Inter';
-  font-weight: normal;
-}
-
-@font-face {
-  src:
-  url('../fonts/Inter-Bold.woff') format('woff'),
-  url('../fonts/Inter-Bold.woff2') format('woff2');
-  font-family: 'Inter';
-  font-weight: bold;
-}
-
-@font-face {
-  src:
-  url('../fonts/Inter-SemiBold.woff') format('woff'),
-  url('../fonts/Inter-SemiBold.woff2') format('woff2');
-  font-family: 'Inter';
-  font-weight: 600;
-}
