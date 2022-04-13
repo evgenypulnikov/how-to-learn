@@ -8,3 +8,5 @@
 **используемые технологии:**
 
 HTML5, CSS3 (Flex, Animation)
+
+![image](https://user-images.githubusercontent.com/51275060/163235231-899ff109-049d-4530-8b6e-0679abbdcbf8.png)
