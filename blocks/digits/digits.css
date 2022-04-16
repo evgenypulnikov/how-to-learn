@@ -1,0 +1,9 @@
+.digits {
+  padding: 100px 64px 96px;
+}
+
+@media screen and (max-width: 767px) {
+  .digits {
+    padding: 100px 32px 96px;
+  }
+}

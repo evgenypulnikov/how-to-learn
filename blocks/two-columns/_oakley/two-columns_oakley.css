@@ -1,0 +1,10 @@
+.two-columns_oakley {
+  padding: 160px 64px 80px;
+  background-color: #f2f2f2;
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns_oakley {
+    padding: 160px 32px 80px;
+  }
+}

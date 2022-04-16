@@ -1,0 +1,19 @@
+@keyframes moving {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.page-link__arrow {
+  display: inline-block;
+}
+
+.page-link:hover .page-link__arrow {
+  animation: moving 0.8s ease-in-out infinite;
+}

@@ -1,0 +1,12 @@
+.two-columns__column {
+  display: grid;
+  row-gap: 30px;
+  margin-left: 56px;
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns__column {
+    margin-top: 40px;
+    margin-left: 0;
+  }
+}

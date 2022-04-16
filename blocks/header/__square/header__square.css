@@ -1,0 +1,16 @@
+.header__square {
+  position: absolute;
+  top: 64px;
+  right: 0;
+  display: block;
+  width: 568px;
+  height: 568px;
+  background-color: #2f80ed;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__square {
+    width: 284px;
+    height: 284px;
+  }
+}

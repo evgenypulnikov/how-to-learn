@@ -1,0 +1,13 @@
+.video__iframes {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+  transform: translateY(45px);
+}
+
+@media screen and (max-width: 767px) {
+  .video__iframes {
+    flex-wrap: wrap;
+    row-gap: 20px;
+  }
+}

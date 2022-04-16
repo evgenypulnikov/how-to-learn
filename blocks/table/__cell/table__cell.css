@@ -1,0 +1,10 @@
+.table__cell {
+  padding: 8.25px;
+  border-radius: 10px;
+  transition: all 0.2s linear;
+}
+
+.table__cell:hover {
+  cursor: default;
+  background-color: rgba(242, 242, 242, 0.5);;
+}

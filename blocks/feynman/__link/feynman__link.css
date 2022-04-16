@@ -1,0 +1,22 @@
+.feynman__link {
+  position: absolute;
+  top: 53%;
+  right: 48px;
+  font-size: 36px;
+  line-height: 51px;
+}
+
+@media screen and (max-width: 1023px) {
+  .feynman__link {
+    position: relative;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__link {
+    font-size: 26px;
+  }
+}

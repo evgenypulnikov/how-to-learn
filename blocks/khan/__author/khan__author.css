@@ -1,0 +1,10 @@
+.khan__author {
+  font-size: 30px;
+  line-height: 42px;
+}
+
+@media screen and (max-width: 767px) {
+  .khan__author {
+    font-size: 20px;
+  }
+}

@@ -1,0 +1,7 @@
+.table__cell_theme_dark {
+  padding: 6.25px;
+}
+
+.table__cell_theme_dark:hover {
+  background-color: #2f80ed;
+}

@@ -1,0 +1,6 @@
+.table_theme_dark {
+  grid-template-columns: repeat(auto-fill, 200px);
+  column-gap: 25px;
+  row-gap: 80px;
+  margin-top: 80px;
+}

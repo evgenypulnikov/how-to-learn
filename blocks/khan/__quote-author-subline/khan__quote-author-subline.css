@@ -1,0 +1,12 @@
+.khan__quote-author-subline {
+  margin-top: 10px;
+  font-size: 24px;
+  line-height: 27.6px;
+}
+
+@media screen and (max-width: 767px) {
+  .khan__quote-author-subline {
+    margin-top: 7px;
+    font-size: 16px;
+  }
+}

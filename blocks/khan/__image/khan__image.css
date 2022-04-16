@@ -1,0 +1,7 @@
+.khan__image {
+  width: 53.8%;
+  max-height: 608px;
+  object-fit: cover;
+  object-position: top;
+  pointer-events: none;
+}

@@ -1,0 +1,13 @@
+.two-columns {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding: 100px 64px 0;
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns {
+    flex-direction: column;
+    padding: 86px 32px 0;
+  }
+}

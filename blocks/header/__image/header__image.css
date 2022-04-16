@@ -1,0 +1,16 @@
+.header__image {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 47%;
+  max-width: 765px;
+  max-height: 608px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__image {
+    display: none;
+  }
+}

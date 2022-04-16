@@ -1,0 +1,6 @@
+.footer__copyright {
+  grid-row-start: 2;
+  margin-top: 21px;
+  font-size: 18px;
+  color: #ffffff;
+}
