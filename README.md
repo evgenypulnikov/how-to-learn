@@ -10,11 +10,7 @@
 
 **используемые технологии:**
 
-<<<<<<< HEAD
-* HTML5,
-=======
 * HTML5, 
->>>>>>> c67cfe04a5bae20d8b0007d77b7c99c1c50adb95
 * CSS3 (Flex, Animations)
 
 * ++ CSS3 (Grid, Adaptive/Responsive Layout)
